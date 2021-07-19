@@ -9,9 +9,9 @@ spec:
     clusterName: kind
     devEnvApprovers:
     - todo
-    environmentGitOwner: todo
+    environmentGitOwner: aweichian
     gitKind: github
-    gitName: github
+    gitName: spring-demo
     gitServer: https://github.com
     provider: kubernetes
     registry: ghcr.io
@@ -22,6 +22,7 @@ spec:
   ingress:
     domain: ""
     externalDNS: false
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
       email: ""
